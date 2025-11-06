@@ -10,6 +10,12 @@ Structure
 - server: API service (TS)
 - client: Web app (Vite + TS + Tailwind)
 
+Add .env inside the server 
+   MONGO_URI=mongodb://localhost:27018
+   JWT_SECRET='h76sdf1w3sdfdfi@sdfsf'
+   CORS_ORIGIN=http://localhost:3000
+   PORT=5001
+
 Local Development (without Docker)
 1) API
    - cd server
